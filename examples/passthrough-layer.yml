@@ -1,0 +1,24 @@
+slices:
+  - sources:
+    - model: arpitsh018/qwen1.5-7b-chat-orpo-v2
+      layer_range: [0, 8]
+  - sources:
+    - model: arpitsh018/qwen1.5-7b-chat-orpo-v2
+      layer_range: [8, 16]
+  - sources:
+    - model: arpitsh018/qwen1.5-7b-chat-orpo-v2
+      layer_range: [9, 16]
+  - sources:
+    - model: arpitsh018/qwen1.5-7b-chat-orpo-v2
+      layer_range: [17, 24]
+  - sources:
+    - model: arpitsh018/qwen1.5-7b-chat-orpo-v2
+      layer_range: [17, 24]
+  - sources:
+    - model: arpitsh08/qwen1.5-7b-chat-orpo-v2
+      layer_range: [25, 32]
+  - sources:
+    - model: arpitsh018/qwen1.5-7b-chat-orpo-v2
+      layer_range: [25, 32]
+merge_method: passthrough
+dtype: float16
